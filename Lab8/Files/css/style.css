@@ -1,0 +1,422 @@
+
+header {
+    background-color: rgba(12, 12, 12, 1);
+    position: fixed;
+    width: 100%; 
+    left: 0;
+    z-index: 20;
+}
+.logo {
+    height: 65%;
+    width: 65%;
+    margin-top:3%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+}
+.ott {
+    height: 2vh;
+}
+html {
+    scroll-behavior: smooth;
+}
+.name{
+    font-family: Roboto;
+    font-weight: thin;
+}
+.input
+{
+    
+    margin: auto;
+    width: 70%;
+}
+label {
+  
+  margin-left: 15%;
+margin-top: 5%;
+    float:left;
+    margin-right:15px;
+ margin-bottom: 1%;
+    width: 70%;
+}
+.Reg {
+    color: white;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+text-align: center;
+vertical-align: middle;
+font-size: large;
+
+}
+a:hover {
+    text-decoration: none;
+}
+.tc {
+    margin: auto;
+}
+::-webkit-scrollbar {
+    width: 5PX;
+    overflow-y:hidden; 
+    background-color: #0C0C0C;
+}
+::-webkit-scrollbar-thumb {
+    background-color: white;
+     border-radius: 9em;
+     overflow-y: hidden;
+}
+body{
+    overflow-x: hidden;
+   margin: 0;
+   padding: 0;
+   
+}
+.ott {
+    height: 100%;
+}
+.foot {color:white;
+font-family: Mr Dafoe;
+font-style: normal;
+font-weight: normal;}
+.footer {background-color: #0C0C0C;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#IDK{
+    background: url(../img/IDK.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#IDR{
+    background: url(../img/IDR.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#IDH{
+    background: url(../img/IDH.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#IDS{
+    background: url(../img/IDS.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#KDK{
+    background: url(../img/KDK.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#KDR{
+    background: url(../img/KDR.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#KDH{
+    background: url(../img/KDH.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#KDS{
+    background: url(../img/KDS.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#PDK{
+    background: url(../img/PDK.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#PDR{
+    background: url(../img/PDR.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#PDH{
+    background: url(../img/PDH.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#PDS{
+    background: url(../img/PDS.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#ccrd{
+    background: url(../icons/1.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+#cccrd{
+    background: url(../icons/3.png) no-repeat center top;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    }
+    #ccccrd{
+        background: url(../icons/2.png) no-repeat center top;
+        height: 200px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+        #cccccrd{
+            background: url(../icons/6.png) no-repeat center top;
+            height: 200px;
+            width: 300px;
+            margin: 0 auto;
+        }
+            #ccccccrd{
+                background: url(../icons/5.png) no-repeat center top;
+                height: 200px;
+                width: 300px;
+                margin: 0 auto;
+                overflow: hidden;}
+                #cccccccrd{
+                    background: url(../icons/4.png) no-repeat center top;
+                    height: 200px;
+                    width: 300px;
+                    margin: 0 auto;
+                    overflow: hidden;}
+                
+            
+        
+.cardd{
+    display: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    line-height: 200px;
+    text-align: center;
+    color: #fff;
+    animation: fade .3s linear forwards;
+    margin-bottom: 2%;
+}
+#IDH:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer; 
+}
+#IDS:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer; 
+}
+#IDR:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer; 
+}
+#IDK:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;  
+}
+
+#PDS:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer; 
+}
+#PDR:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer; 
+}
+#PDK:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;  
+}
+#KDH:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer; 
+}
+#PDH:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer; 
+}
+#KDS:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer; 
+}
+#KDR:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer; 
+}
+#KDK:hover .cardd{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;  
+}
+#ccrd:hover .cardd{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;  
+}
+ #cccrd:hover .cardd{
+   display: block;
+   background: rgba(0, 0, 0, 0.5);
+   cursor: pointer;
+}
+#ccccrd:hover .cardd{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+ }
+ #cccccrd:hover .cardd{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+ }
+ #ccccccrd:hover .cardd{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+ }
+ #cccccccrd:hover .cardd{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+ }
+.ot {height: 50px;}
+.img { pointer-events: none; 
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;}
+.icons {height: 55px; width: 55px; margin-right: 3%; float: right;  margin-top: 1%; transition: all .5s ease; fill: whitesmoke; margin-bottom: 1%;}
+.tut {font-size: small;}
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.par {
+    background-image: url(../img/1.png);
+background-repeat: no-repeat;
+
+background-attachment: fixed;
+background-size: cover ;
+height: 98vh;}
+.icons:hover {
+    fill: #0C0C0C;
+    background-color: whitesmoke;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+.iak {
+    background: url(../icons/a.png) 0 5px no-repeat; /* Рисунок */
+    padding-left: 24px; /* Отступ справа */
+    text-decoration: none;
+    font-size: x-large;
+    color: #0C0C0C;
+    font-family: Roboto;
+    transition: all .5s ease
+}
+.iak:hover {color: rgb(65, 65, 65);
+    transition: all .5s ease
+
+}
+.zag {font-size: 4vw ;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.zzag {margin-left: 2%;}
+@media all and (max-width: 1000px) {
+    .par {height: 30vh;
+        background-size:contain}
+        .ot{
+            height: 70px;
+        }
+}
+.silka {
+    text-align: center; margin: auto;
+}
+.button {
+    background-color: white;  
+    font-family: Roboto;
+    font-weight: thin;
+    margin: auto;
+    border-width: 0;
+    padding: 4px 70px 4px 70px ;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+.button:hover {
+    background-color: rgb(231, 231, 231);
+}
+.zlogo {
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 10vw;
+    
+}
+.llogo {
+    font-family: Roboto;
+    font-weight: light;
+    font-size: xx-large;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.kurs{
+    color: #fff;
+    font-size: x-large;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+.sv {
+    height: 50px; width: 20%; color: white;
+}
+.margin {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.NN {text-decoration: none;
+color: #0C0C0C;
+font-size: large;
+font-style: Roboto;
+float: right;
+
+}
+.NN:hover {text-decoration:overline ;
+font-weight: bold;
+color: black;
+transition: all .1s ease
+}
+.box {
+    border-radius: 50px;
+    background-color: #f0f0f3;
+    box-shadow: 10px 10px 21px #d3d3d6,
+    -10px -10px 21px #fff;
+}
+.new {
+    font-family: Roboto;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.oot {
+    height: 50vh;
+}
